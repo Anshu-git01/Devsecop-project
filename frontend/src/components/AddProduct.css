@@ -1,0 +1,31 @@
+.card h2 { margin-bottom: 16px; font-size: 18px; }
+
+.form-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+input {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus { border-color: #1a1a2e; }
+
+button[type="submit"] {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button[type="submit"]:hover { background: #2d2d4e; }
+.error { color: #d93025; margin-bottom: 12px; font-size: 14px; }
